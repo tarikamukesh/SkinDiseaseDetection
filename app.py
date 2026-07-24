@@ -28,7 +28,7 @@ Developed for educational purposes.
 # ---------------- LOAD MODEL ----------------
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("best_skin_model.keras")
+    return tf.keras.models.load_model("skin_disease_model.keras")
 
 model = load_model()
 
