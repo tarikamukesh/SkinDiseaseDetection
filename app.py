@@ -76,9 +76,8 @@ if uploaded_file is not None:
 
     with col1:
         st.subheader("📷 Uploaded Image")
-        st.image(image,use_
-container_width=True)
-
+        st.image(image, use_container_width=True)
+        
     img = image.resize((224, 224))
     img = np.array(img) / 255.0
     img = np.expand_dims(img, axis=0)
