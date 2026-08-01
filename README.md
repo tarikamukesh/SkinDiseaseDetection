@@ -63,7 +63,7 @@ Disease Classes:
 
 | Metric | Value |
 |--------|-------|
-| Test Accuracy | **76.45%** |
+| Test Accuracy | **86.45%** |
 | Optimizer | Adam |
 | Loss Function | Sparse Categorical Crossentropy |
 | Epochs | 10 |
